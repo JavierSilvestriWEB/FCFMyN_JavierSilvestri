@@ -450,6 +450,7 @@ textarea{
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
         margin-left: 100px;
     }
+    .uni, nav{margin-left: 20px;}
 }
 @media(max-width:640px) {
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
@@ -458,4 +459,5 @@ textarea{
     .contH{
         height: 500px;
     }
+    .uni, nav{margin-left: 5px;}
 }
