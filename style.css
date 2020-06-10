@@ -110,10 +110,11 @@ p{
     padding: 20px;
 }
 .tamimg{
-    text-align: center;
     height: 320px;
 }
-.zv{
+.imagenN{
+    width: 500px;
+    height: auto;
     margin-top: 20px;
 }
 /*=====================================================CONTENIDO AULAS======================================*/
@@ -437,7 +438,7 @@ textarea{
 @media(max-width:940px) {
     .bodyH{display: block; height: 150px; justify-content: center;}
     .uni, nav{margin-left: 100px;}
-    .N1{width: 100%;}
+    .N1{width: 100%; padding: 0px;}
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
         margin-left: 200px;
     }
@@ -445,12 +446,14 @@ textarea{
         display: block;
         background: rgb(88, 88, 88);
     }
+    .imagenN{width: 400px; height: auto;}
 }
 @media(max-width:840px) {
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
         margin-left: 100px;
     }
     .uni, nav{margin-left: 20px;}
+    .imagenN{width: 300px; height: auto;}
 }
 @media(max-width:640px) {
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
