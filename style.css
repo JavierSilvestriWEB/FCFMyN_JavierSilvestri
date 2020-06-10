@@ -4,17 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
-    width: 100%;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     overflow-x: hidden;
 }
 /*                                    HEADER             */
 
 header{
+    width: 100%;
     background-image: url(wow.png); /*img1.png*/
     color: #fff;
     height: 700px;
@@ -65,7 +66,6 @@ a:active{
 
 .body2{
     width: 100%;
-    margin: 10px;
     padding: 5px;
     display: flex;
 }
@@ -120,7 +120,7 @@ p{
 .contA{
     height: 600px;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 .botonAulas{
     width: 400px;
