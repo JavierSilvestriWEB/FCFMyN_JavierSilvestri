@@ -345,6 +345,9 @@ footer{
 }
 
 /*=======================================================   CONTACTO   ================================================================*/
+.bodyContacto{
+    margin-top: 80px;
+}
 
 form{
     height: 1300px;
@@ -452,8 +455,28 @@ textarea{
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
         margin-left: 100px;
     }
+
     .uni, nav{margin-left: 20px;}
     .imagenN{width: 300px; height: auto;}
+
+    .campos{
+        font-size: 15px;
+        margin-top: 80px;
+        width: 200px;
+        margin: 2px;
+        padding: 0px;
+    }
+    .camptexto, .carrera{
+        width: 200px;
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+    }
+    textarea{
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+    }
 }
 @media(max-width:640px) {
     .submenuMinasA, .submenuObrasVialesA, .submenuCienciasGeologicasA, .submenuGeoinformaticaA, .menuPrimero, .menuSegundo, .menuTercero, .menuCuarto, .menuQuinto{
